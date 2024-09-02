@@ -10,7 +10,7 @@ namespace REAP
 {
     public partial class REAP : Form
     {
-        private SearchResultCollection searchResults; // Declared at the class level
+        private SearchResultCollection searchResults;
         private int currentIndex;
 
         public REAP()
@@ -42,15 +42,10 @@ namespace REAP
         private void button1_Click(object sender, EventArgs e)
         {
 
-            //switch (Mychoice) 
-            //{ 
-
-            //}
+          
             int Usercombo = comboBox1.SelectedIndex;
             int Passcombo = comboBox2.SelectedIndex;
-            // switch(){
-            // case "monday":
-            //  folderBrowserDialog1.ShowDialog();
+            
 
             if (Usercombo != null && Passcombo != null && Usercombo == 0 && Passcombo == 0)
             {
@@ -71,10 +66,7 @@ namespace REAP
                             {
                                 Results.Items.Add("Login Successfull for " + uname);
                             }
-                            // else
-                            // {
-                            // MessageBox.Show("incorrect password for account :" + uname);
-                            //}
+                            
                         }
                     }
                 }
@@ -136,7 +128,7 @@ namespace REAP
             {
                 textBox1.Enabled = true;
                 textBox2.Enabled = false;
-                //MessageBox.Show("Selected Single user & multiple passwords");
+                
                 try
                 {
                     string username = textBox1.Text;
