@@ -52,6 +52,7 @@
             // 
             // textBox1
             // 
+            textBox1.ForeColor = Color.Blue;
             textBox1.Location = new Point(44, 218);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
@@ -62,10 +63,10 @@
             // textBox2
             // 
             textBox2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox2.ForeColor = Color.Blue;
             textBox2.Location = new Point(534, 209);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
-            textBox2.PasswordChar = '*';
             textBox2.Size = new Size(260, 41);
             textBox2.TabIndex = 1;
             // 
@@ -122,6 +123,7 @@
             // Results
             // 
             Results.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Results.ForeColor = Color.Blue;
             Results.FormattingEnabled = true;
             Results.ItemHeight = 20;
             Results.Location = new Point(0, -6);
@@ -168,7 +170,7 @@
             // textBox3
             // 
             textBox3.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.ForeColor = Color.FromArgb(128, 255, 128);
+            textBox3.ForeColor = Color.Blue;
             textBox3.Location = new Point(348, 105);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
